@@ -43,8 +43,11 @@ group :development, :test do
   gem 'spring'
 end
 
+gem "devise"
+
 gem "minitest-rails"
 group :test do
   gem "minitest-rails-capybara"
   gem "minitest-reporters"
+  gem "launchy"
 end
